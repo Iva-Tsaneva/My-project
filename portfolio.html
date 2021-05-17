@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css">
+    <link rel="stylesheet" href="./jquery.js">
+</head>
+<body>
+    <header>
+        <div id="close">
+            <a href="./index.html"><i class="fas fa-times"></i></a>
+        </div>
+        <p>Showcasing some of my best work</p>
+        <h1>Portfolio</h1>
+        
+    </header>
+    <main>
+        <div class="projects">
+            
+                <button class="accordion">My Project - Shopwise</button>
+                <div class="panel">
+                    <img src="./images/Screen Shot 2021-05-06 at 18.38.03.png" alt="">
+                    <img src="./images/Screenshot_2021-05-05 Products.png" alt="">
+                </div>
+                
+                <button class="accordion">My Project - MarioClub</button>
+                <div class="panel">
+                    <img src="./images/Уеб заснемане_17-5-2021_15577_.jpeg" alt="">
+                </div>
+
+                <button class="accordion">My Project - Beautifull</button>
+                <div class="panel">
+                    <img src="./images/Уеб заснемане_17-5-2021_16626_.jpeg" alt="">
+                </div>
+
+                <button class="accordion">My Project - YouVideo</button>
+                <div class="panel">
+                    <img src="./images/Уеб заснемане_17-5-2021_16112_.jpeg" alt="">
+                </div>
+        </div>
+    </main>
+    <script>
+        let acc = document.getElementsByClassName("accordion");
+        let i;
+
+        for (i = 0 ;i < acc.length; i++) {
+            acc[i].addEventListener("click", function(){
+                this.classList.toggle("active");
+                let panel = this.nextElementSibling;
+                    if(panel.style.display === "block"){
+                        panel.style.display = "none";
+                    } else{
+                        panel.style.display = "block";
+                    }
+            });
+            
+        }
+      </script>
+</body>
+</html>

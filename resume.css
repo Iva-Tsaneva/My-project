@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    text-align: center;
+    
+}
+header h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    line-height: 1.6;
+    border-bottom: 3px solid #009e66;
+    display: inline-block;
+}
+header p{
+    color: wheat;
+}
+#close{
+    text-align: right;
+}
+#close i{
+    color: white;
+    font-size: 3em;
+    margin: 20px;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    margin-top: 50px;
+}
+.education{
+    width: 40%;
+    line-height: 1.6;
+    border-left: 3px solid #009e66;
+}
+.education h2{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.education h3{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 20px;
+}
+.education p{
+    font-size: 1em;
+    padding: 30px;
+    color: wheat;
+    padding-bottom: 30px;
+   
+}
+.education p:not(:last-child){
+    border-bottom: 1px solid rgb(70, 69, 69);
+}
+.icons-line{
+    display: flex;
+    align-items: center;
+}
+.icons-line i{
+    color: #009e66;
+    font-size: 2.5em;
+}
+.skills{
+    color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    line-height: 2.3;
+}
+.skills h2{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+.skills p{
+    color: wheat;
+}
+.skills div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 8px solid #009e66;
+}
+.motivation{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.motivation div{
+    line-height: 1.6;
+}
+.motivation h2{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+.motivation p{
+    color: wheat;
+}
+iframe{
+    padding-left: 30px;
+}
+

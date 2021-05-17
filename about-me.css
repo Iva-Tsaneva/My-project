@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    text-align: center;
+    
+}
+.title h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    line-height: 1.6;
+    border-bottom: 3px solid #009e66;
+    display: inline-block;
+}
+.title p{
+    color: wheat;
+}
+#close{
+    text-align: right;
+}
+#close i{
+    color: white;
+    font-size: 3em;
+    margin: 20px;
+    
+}
+.contain{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 1.6;
+}
+.place-img{
+    width: 30%;
+}
+.place-img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.info-me{
+    width: 50%;
+    text-align: left;
+    
+}
+.info-me span{
+    color: #009e66;
+    font-size: 1.8em;
+}
+.info-me h2{
+    color: white;
+    font-size: 1.9em;
+    font-weight: bold;
+    
+}
+.info-me p{
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.info-me-form{
+    line-height: 1.6;
+    margin-top: 30px;
+}
+ 
+form label{
+    color: white;
+    font-size: 1em;
+}
+input{
+    border:none;
+    color: wheat;
+    background-color: black;
+    font-size: 1em;
+    text-align: left;
+}
+.down-form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+#download-btn {
+    border:none;
+    background-color: #009e66;
+    border-radius: 50px;
+    font-size: 1em;
+    padding: 9px 18px;
+}
+#download-btn a{
+    color: white;
+}
+.line{
+    background: #009e66;
+    width: 70px;
+    height: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-social{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-social li a{
+    margin-right: 20px;
+    color: white;
+    font-size: 1.3em;
+}
+.nav-social li a:hover{
+    color: #009e66;
+}

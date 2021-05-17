@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    text-align: center;
+    
+}
+header h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    line-height: 1.6;
+    border-bottom: 3px solid #009e66;
+    display: inline-block;
+}
+header p{
+    color: wheat;
+}
+#close{
+    text-align: right;
+}
+#close i{
+    color: white;
+    font-size: 3em;
+    margin: 20px;
+    
+}
+.contact-contain{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: white;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.wrapper form{
+    width: 50%;
+}
+.contact-contain h2{
+    font-size: 1.7em;
+    line-height: 1.6;
+}
+.contact-contain input{
+    font-size: 1em;
+    line-height: 1.6;
+    background-color: black;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.contact-contain input:last-of-type{
+    width: 100%;
+}
+.contact-contain input:hover{
+    border-bottom: 2px solid #009e66;
+}
+.contact-contain textarea{
+    background-color: black;
+    border: none;
+    font-size: 1em;
+    width: 500px;
+    height: 180px;
+    color: white;
+    margin-bottom: 20px;
+}
+.contact-contain textarea:hover{
+    border-bottom: 2px solid #009e66;
+}
+#download-btn {
+    border:none;
+    background-color: #009e66;
+    border-radius: 50px;
+    font-size: 1em;
+    padding: 9px 18px;
+}
+#download-btn a{
+    color: white;
+}
+.contact-info{
+    width: 40%;
+
+}
+.contact-info p{
+    color: wheat;
+    font-size: 1em;
+    line-height: 1.6;
+}
+.contact-icons{
+    color: #009e66;
+    border-right: 2px solid gray;
+}
+.contact-icons li{
+    font-size: 1.7em;
+    margin: 20px;
+}
+.contact-aside{
+    display: flex;
+    align-items: center;
+}
+.contact-local{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.contact-local p{
+    margin-bottom: 20px;
+    font-size: 0.8em;
+}
